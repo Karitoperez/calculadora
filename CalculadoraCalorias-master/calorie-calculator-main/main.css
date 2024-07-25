@@ -1,0 +1,95 @@
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #527853;
+}
+
+/* header */
+.header a {
+    font-size: 1.5em;
+}
+.header a.active,.txt1 {
+    color: black !important;
+}
+
+.py-2{
+    background-color: #527853;
+}
+
+
+/* main */
+.row {
+    gap: 10px;
+    overflow: hidden;
+}
+
+.main-content {
+    background-image: url('img/cover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-content .card {
+    color: black;
+    background-color: rgba(82, 120, 83, 0.5)
+}
+
+#resultado {
+    display: none;
+}
+
+
+/* footer */
+.footer {
+    background-color: #527853;
+    color: black;
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.form-control, .form-select{
+    width: 50%;
+}
+.mb-3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna1{
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
